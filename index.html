@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Heretic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg sticky-top d-flex align-items-center border-bottom"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid px-5">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">
+          <img src="img/heretic.png" width="90" alt="" />
+        </a>
+
+        <ul
+          class="navbar-nav flex-row gap-3 align-items-center d-flex d-lg-none"
+        >
+          <li class="nav-item">
+            <a href="#"><i class="bi bi-heart-fill text-light fs-5"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#"><i class="bi bi-bag-fill text-light fs-5"></i></a>
+          </li>
+        </ul>
+
+        <div
+          class="collapse navbar-collapse py-lg-3 text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto gap-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar-search d-flex gap-3">
+            <!-- icon -->
+            <ul
+              class="navbar-nav flex-row gap-3 align-items-center d-lg-flex d-none"
+            >
+              <li class="nav-item">
+                <a href="#"><i class="bi bi-heart-fill text-light fs-5"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><i class="bi bi-bag-fill text-light fs-5"></i></a>
+              </li>
+            </ul>
+            <div class="search mx-auto w-75">
+              <form class="">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    aria-label="Search"
+                    aria-describedby="basic-addon1"
+                  />
+                  <button class="btn bg-transparent border" type="submit">
+                    <i class="bi bi-search text-light"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- home -->
+    <section id="home" class="pt-lg-0 pt-5">
+      <div class="container-fluid">
+        <div class="row h-100">
+          <div class="col-sm-5 col-12 offset-sm-1 d-flex align-items-center">
+            <img src="img/bajubaru.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-sm-4 col-12 offset-sm-1 d-flex text-light align-items-center">
+            <div
+              class="d-flex justify-content-sm-start justify-content-center align-items-sm-start align-items-center flex-column gap-2"
+            >
+              <h1>The Cryptical Glyph Tee</h1>
+              <h6 class="fw-light text-sm-start text-center">
+                Featuring a unique graphic print inspired by ancient glyphs,
+                this tee adds a touch of mystery and intrigue to your look. A
+                statement piece for those who dare to be different.
+              </h6>
+              <button class="btn btn-light mx-sm-0 mx-auto">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product -->
+    <section id="product" class="pt-5">
+      <div class="container-fluid">
+        <div class="row pt-5">
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Abyss.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Abyss</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Cascade.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cascade</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Faceof.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Face Of</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Glyph.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Glyph</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Sage.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sage</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Parachute.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Parachute</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Warship.png" class="card-img-top" alt=".." />
+              <div class="card-body">
+                <h5 class="card-title">Warship</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 text-light">
+            <div class="card rounded-0" style="width: 100%">
+              <img src="img/Soul.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Soul</h5>
+                <p class="card-text">Rp 1.000.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- about -->
+<section id="about" class="pt-5">
+  <div class="container-fluid">
+    <div class="row pt-5">
+      <div class="col-lg-6 col-12">
+        <img src="img/Photo.png" class="img-fluid" alt="" />
+      </div>
+      <div class="col-lg-6 col-12">
+        <span class="text-light">
+            <h1 class="mb-3 mt-3">About Hertic</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo at ea corrupti non molestias fugit velit sed repellendus voluptas doloremque maxime ad, quos debitis illo qui vel enim minus magni in hic itaque saepe exercitationem libero odit! Tempora, at eligendi? Quos eius quam saepe aut dignissimos, tempora dolorum quidem. Harum odio a, similique sapiente laudantium suscipit nemo quam reiciendis iusto nobis? Adipisci necessitatibus ipsa, autem exercitationem cumque quaerat! Dolorum ipsam doloribus reprehenderit facilis dolores, dignissimos impedit expedita quas eligendi tempora cupiditate, tenetur facere. Unde beatae explicabo sapiente earum est iusto eaque ipsum placeat et eligendi dolorum, quam soluta. Quam, quaerat impedit corporis dolorum nihil totam excepturi sit quia enim dolor provident reiciendis earum quisquam voluptatum corrupti magni consectetur dignissimos doloribus, suscipit soluta molestias aperiam amet? Quibusdam illo non culpa, ut enim dolores dignissimos unde soluta quam omnis, saepe quasi tenetur in? Provident consequuntur deleniti aliquid pariatur eum. Voluptatum, nulla qui.</p>
+        </span>
+      </div>
+</section>
+
+<!-- gallery -->
+<section id="gallery" class="pt-5">
+  <div class="container-fluid pt-5">
+    <h1 class="text-center text-light">Gallery Hertic</h1>
+    <div class="row pt-3">
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/2.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/3.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/4.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/5.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/6.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/7.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/8.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/9.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/10.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/11.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/12.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/13.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/14.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/15.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/16.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/17.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-2 col-sm-3 col-6">
+        <img src="img/18.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section id="contact" class="py-5">
+  <div class="container pt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 text-center mb-5">
+        <h2 class="text-light mb-4">CONTACT US</h2>
+        <p class="text-light opacity-75">Get in touch with HERETIC - Rise from the Darkness, Scream Loud</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <!-- Contact Form -->
+        <form>
+          <div class="mb-4">
+            <input type="text" class="form-control custom-input" placeholder="Name">
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control custom-input" placeholder="Email">
+          </div>
+          <div class="mb-4">
+            <textarea class="form-control custom-input" rows="5" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-light px-4 py-2 w-100">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Social Media Icons -->
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-8 col-lg-6 text-center">
+        <div class="d-flex justify-content-center gap-4">
+          <a href="#" class="social-icon">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="bi bi-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="pt-4 pb-3 border-top">
+  <div class="container">
+    <!-- Main Footer Content -->
+    <div class="row align-items-center mb-3">
+      <!-- Logo -->
+      <div class="col-md-3 col-sm-12 mb-3 mb-md-0 text-center text-md-start">
+        <img src="img/heretic.png" width="120" alt="Heretic Logo">
+      </div>
+
+      <!-- Menu -->
+      <div class="col-md-6 col-sm-12 mb-3 mb-md-0">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-3 col-sm-12 text-center text-md-end">
+        <div class="d-flex gap-4 justify-content-center justify-content-md-end">
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-instagram text-light fs-5"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-facebook text-light fs-5"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-twitter text-light fs-5"></i>
+          </a>
+          <a href="#" class="text-decoration-none">
+            <i class="bi bi-youtube text-light fs-5"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="row">
+      <div class="col-12">
+        <hr class="border-light opacity-25">
+        <p class="text-light text-center mb-0">
+          © 2024 HERETIC. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

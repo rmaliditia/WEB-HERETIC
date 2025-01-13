@@ -1,0 +1,112 @@
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  height: max-content;
+}
+
+nav {
+  background-color: black;
+}
+
+#gallery .row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#product .row > * {
+  margin-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* contact */
+.custom-input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  padding: 12px 15px;
+}
+
+.custom-input:focus {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  box-shadow: none;
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.social-icon {
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+}
+
+.social-icon:hover {
+  color: #cacaca;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-icon .bi {
+    font-size: 1.5rem !important;
+  }
+
+  .custom-input {
+    padding: 10px 12px;
+  }
+}
+
+/* footer */
+footer {
+  background-color: black;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  opacity: 0.8;
+}
+
+.bi:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-link {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.9rem;
+  }
+}
